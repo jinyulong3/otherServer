@@ -1,0 +1,1 @@
+"use strict";app.controller("SignupFormController",["$scope","$http","$state",function(o,r,t){o.user={},o.authError=null,o.signup=function(){o.authError=null,r.post("api/signup",{name:o.user.name,email:o.user.email,password:o.user.password}).then(function(r){r.data.user?t.go("app.dashboard-v1"):o.authError=r},function(r){o.authError="Server Error"})}}]);

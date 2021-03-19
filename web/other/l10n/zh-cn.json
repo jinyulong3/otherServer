@@ -1,0 +1,309 @@
+{
+  "title":"SANKI附加功能管理系统",
+  "public":{
+    "all":"全部",
+    "ID":"编号",
+    "ok":"确定",
+    "cancel":"取消",
+    "delete":"删除",
+    "deleteWarn":"(删除后不可恢复)",
+    "chart":"图表",
+    "selectCustomer":"客户选择",
+    "selectStation":"站点选择",
+    "selectOil":"油品选择",
+    "selectOilTank":"油罐选择",
+    "selectSwitch":"集线器选择",
+    "selectAgreementType":"协议类型选择",
+    "queryByCondition":"按条件查询",
+    "toExcel":"导出EXCEL",
+    "startDate":"开始日期",
+    "endDate":"截止日期",
+    "customer":"客户",
+    "station":"站点",
+    "nozzleNo":"枪号",
+    "isPayed":"是否支付",
+    "payType":"支付方式",
+    "oilName":"油品名称",
+    "systemAdmin":"系统管理员",
+    "customerAdmin":"客户管理员",
+    "stationAdmin":"站点管理员",
+    "seeNoClearly":"看不清楚 换一张",
+    "loginIn":"登录",
+    "rememberPsw":"记住密码",
+    "redirect":"登录超时,请重新登录.2秒后自动跳转",
+    "invalidation":"会话失效，用户在别处登录",
+    "tooFast":"请求过快",
+    "serverResponse":"服务器回应",
+    "error":"错误提示",
+    "warn":"警告"
+  },
+  "signIn":{
+    "userName":"用户名",
+    "password":"密码",
+    "authCode":"验证码"
+  },
+  "welcome":{
+    "welcome":"欢迎",
+    "welcomeText":"欢迎使用北京三盈站用管理系统"
+  },
+  "header": {
+    "left":{
+      "name":"管理系统",
+      "refresh":"刷新",
+      "theme":"主题"
+    },
+    "right":{
+        "customerName":"客户名称",
+        "stationName":"站点名称",
+        "userRole":"用户类型",
+        "changePassword":"修改密码",
+        "loginOut":"退出登录"
+    }
+  },
+  "aside": {
+    "nav1": {
+      "HEADER": "系统管理",
+      "startManage": {
+        "startManageT": "初始管理",
+        "customerManage": "客户管理",
+        "stationManage": "站点管理",
+        "userManage": "用户管理"
+      },
+      "inStationManage": {
+        "inStationManageT": "站内管理",
+        "staffManage": "员工管理",
+        "oilManage": "油品管理",
+        "tankManage": "油罐管理",
+        "switchManage": "集线器管理",
+        "nozzleManage": "油枪管理",
+        "liquidLevelManage": "液位设备管理",
+        "outdoorPosManage": "室外POS管理",
+        "systemPram": "系统参数"
+      }
+    },
+    "nav2": {
+      "HEADER": "数据查询",
+      "historyQuery": {
+        "historyQueryT": "历史查询",
+        "transQuery": "订单查询",
+        "transCollectQuery": "订单汇总"
+      },
+      "shiftQuery": {
+        "shiftQueryT": "班结查询",
+        "shiftHistory": "班结历史",
+        "oilShift": "油品班结查询",
+        "tankShift": "油罐班结查询",
+        "nozzleShift": "油枪班结查询"
+      }
+    }
+  },
+  "items":{
+    "public":{
+      "in15":"15个以内字符",
+      "in20":"20个以内字符",
+      "in30":"30个以内字符",
+      "in50":"50个以内字符",
+      "in100":"100个以内字符",
+      "inputAdminName":"请输入负责人姓名",
+      "inputTel":"请输入有效的手机号码",
+      "inputAddress":"请输入地址",
+      "numberIn5":"请输入不超过5位数字",
+      "numberIn5NoMuti":"请输入不超过5位数字,同站点下不可重复",
+      "positiveInteger":"请输入正整数,小数位数请在系统参数中设置",
+      "inputPositiveInteger":"请输入正整数",
+      "inputPositiveInteger09":"请输入正整数0-9",
+      "inputPsw":"请输入密码",
+      "noChangedIsNull":"为空时不做修改",
+      "ipDemo":"示例 192.168.1.1"
+    },
+    "customerManage":{
+      "addCustomer":"添加客户",
+      "editCustomer":"编辑客户",
+      "deleteCustomer":"删除客户",
+      "customerNo":"客户编号",
+      "customerName":"客户名称",
+      "address":"地址",
+      "admin":"管理员",
+      "telephone":"电话",
+      "level":"客户等级",
+      "regTime":"注册时间",
+      "inputCustomerName":"请输入客户名称"
+    },
+    "stationManage":{
+      "stationList":"站点列表",
+      "addStation":"添加站点",
+      "editStation":"编辑站点",
+      "deleteStation":"删除站点",
+      "stationId":"站点编号",
+      "stationName":"站点名称",
+      "manager":"管理员",
+      "address":"地址",
+      "phoneNum":"联系电话",
+      "qrCodePayGroupId":"移动支付商户ID",
+      "qrCodePayStationId":"移动支付站点ID",
+      "refundPayPsw":"退款密码",
+      "regTime":"注册时间",
+      "inputStationId":"请输入5位以内数字,同客户下不能重复",
+      "inputStationName":"请输入站点名称",
+      "inputRefundPsw":"请输入6位数字退款密码,如果已设置则不需填写"
+    },
+    "userManage":{
+      "userList":"用户列表",
+      "addUser":"添加用户",
+      "editUser":"编辑用户",
+      "deleteUser":"删除用户",
+      "customerId":"客户编号",
+      "customerName":"客户名称",
+      "role":"用户类别",
+      "phoneNum":"手机号",
+      "name":"姓名",
+      "inputName":"请输入姓名"
+    },
+    "staffManage":{
+      "staffList":"员工列表",
+      "addStaff":"添加员工",
+      "editStaff":"编辑员工",
+      "deleteStaff":"删除员工",
+      "name":"姓名",
+      "userId":"员工号(登录双屏机用)",
+      "phoneNum":"手机号",
+      "password":"密码",
+      "createTime":"创建时间"
+    },
+    "oilManage":{
+      "oilList":"油品列表",
+      "addOil":"添加油品",
+      "editOil":"编辑油品",
+      "deleteOil":"删除油品",
+      "oilCode":"油品编号",
+      "oilName":"油品名称",
+      "price":"单价",
+      "createTime":"创建时间"
+    },
+    "tankManage":{
+      "tankList":"油罐列表",
+      "addTank":"添加油罐",
+      "editTank":"编辑油罐",
+      "deleteTank":"删除油罐",
+      "tankNo":"油罐编号",
+      "tankHeight":"罐高",
+      "tankCapacity":"罐容",
+      "createTime":"创建时间"
+    },
+    "switchManage":{
+      "switchList":"集线器列表",
+      "addSwitch":"添加集线器",
+      "editSwitch":"编辑集线器",
+      "deleteSwitch":"删除集线器",
+      "switchNo":"集线器编号",
+      "switchName":"集线器名称",
+      "ipAdress":"IP地址",
+      "createTime":"创建时间"
+    },
+    "nozzleManage":{
+      "nozzleList":"油枪列表",
+      "addNozzle":"添加油枪",
+      "editNozzle":"编辑油枪",
+      "deleteNozzle":"删除油枪",
+      "logicNozzleNo":"逻辑枪号",
+      "physicsNozzleNo":"物理枪号",
+      "switchPort":"集线器端口"
+    },
+    "liquidLevelManage":{
+      "liquidLevelList":"液位设备列表",
+      "addLiquidLevel":"添加液位设备",
+      "editLiquidLevel":"编辑液位设备",
+      "deleteLiquidLevel":"删除液位设备",
+      "agreementType":"协议类型"
+    },
+    "outdoorPosManage":{
+      "outdoorPosList":"室外POS列表",
+      "addOutdoorPos":"添加室外POS",
+      "editOutdoorPos":"重新绑定油枪",
+      "deleteOutdoorPos":"删除室外POS",
+      "bindNozzlesNo":"绑定枪号",
+      "bindNozzles":"绑定枪号（可多选）",
+      "outdoorPosNo":"室外POS编号"
+    },
+    "systemPramManage":{
+      "systemPramList":"系统参数列表",
+      "addSystemPram":"添加系统参数",
+      "editSystemPram":"编辑系统参数",
+      "deleteSystemPram":"删除系统参数",
+      "moneyDec":"金额小数位",
+      "volumeDec":"升小数位",
+      "totalizerDec":"升累计小数位",
+      "totalizer2Dec":"金额累计小数位",
+      "heightDec":"高度小数位",
+      "shiftCount":"当天班结次数",
+      "createTime":"创建时间"
+    },
+    "shiftQuery":{
+      "shiftList":"班结列表",
+      "shiftNum":"班结编号",
+      "startTime":"开班时间",
+      "endTime":"结班时间"
+    },
+    "oilShiftQuery":{
+      "oilShiftList":"油品班结列表",
+      "thisShiftSaleAmount":"当班销售金额",
+      "actualRecieveAmount":"当班收款",
+      "startVolume":"开班升数",
+      "inVolume":"当班进油升数",
+      "outVolume":"当班出油升数",
+      "endVolume":"交班升数",
+      "saleMoney":"当班销售金额",
+      "realMoney":"当班收款",
+      "discount":"当班优惠",
+      "outVolume2":"液位计量值"
+    },
+    "tankShiftQuery":{
+      "tankShiftList":"油罐班结列表",
+      "startShiftVolume":"开班升数",
+      "endShiftVolume":"交班升数",
+      "inVolume":"当班进油升数",
+      "outVolume":"当班出油升数",
+      "startHeight":"开班高度",
+      "endHeight":"交班高度",
+      "outVolume2":"液位计量值"
+    },
+    "nozzleShiftQuery":{
+      "nozzleShiftList":"油枪班结列表",
+      "thisShiftAmount":"当班金额",
+      "actualAmount":"实际金额",
+      "startTotalizer":"开班泵码",
+      "endTotalizer":"交班泵码",
+      "volume":"当班升数",
+      "money":"当班金额",
+      "realMoney":"实际金额",
+      "discount":"当班优惠"
+    },
+    "trans":{
+      "time":"加油时间",
+      "money":"金额",
+      "volume":"升数",
+      "price":"单价",
+      "totalizer":"升累计",
+      "transNum":"TTC",
+      "shiftNum":"班号",
+      "payMoney":"实付金额",
+      "payType":"支付方式",
+      "discount":"优惠金额",
+      "isNullToQueryAll":"为空时查询全部",
+      "inputNumber":"请输入数字",
+      "canInputPartOfOilName":"可输入部分油品名称"
+      
+    },
+    "transCollect":{
+      "allTransCount":"总条数",
+      "allMoney":"总金额",
+      "allVolume":"总升数",
+      "allDiscount":"总优惠金额",
+      "count":"条数",
+      "collect":"汇总",
+      "collectByNozzle":"按枪汇总",
+      "collectByPay":"按支付方式汇总",
+      "collectByOil":"按油品名称汇总"
+    }
+  }
+}

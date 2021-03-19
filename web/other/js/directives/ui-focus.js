@@ -1,0 +1,1 @@
+angular.module("app").directive("uiFocus",function(o,t){return{link:function(n,u,i){var c=t(i.uiFocus);n.$watch(c,function(n){!0===n&&o(function(){u[0].focus()})}),u.bind("blur",function(){n.$apply(c.assign(n,!1))})}}});

@@ -1,0 +1,1 @@
+app.controller("pageMain",["$scope","$uibModal","toaster","httpJsonHandle","myConstants","$state",function(o,s,a,n,t,e){console.log("主页"),""==o.app.myData.sessionId&&e.go("access.signin")}]);

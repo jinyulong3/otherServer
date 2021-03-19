@@ -1,0 +1,311 @@
+{
+  "title":"SANKI SYSTEM",
+  "public":{
+    "all":"all",
+    "ID":"ID",
+    "ok":"confirm",
+    "cancel":"cancel",
+    "delete":"delete",
+    "deleteWarn":"(delete cuatious)",
+    "chart":"chart",
+    "selectCustomer":"selectCustomer",
+    "selectStation":"selectStation",
+    "selectOil":"selectOil",
+    "selectOilTank":"selectOilTank",
+    "selectSwitch":"selectSwitch",
+    "selectAgreementType":"selectAgreementType",
+    "queryByCondition":"queryByCondition",
+    "toExcel":"toExcel",
+    "startDate":"startDate",
+    "endDate":"endDate",
+    "customer":"customer",
+    "station":"station",
+    "nozzleNo":"nozzleNo",
+    "isPayed":"isPayed",
+    "payType":"payType",
+    "oilName":"oilName",
+    "systemAdmin":"systemAdmin",
+    "customerAdmin":"customerAdmin",
+    "stationAdmin":"stationAdmin",
+    "seeNoClearly":"Can't see clearly change a",
+    "loginIn":"loginIn",
+    "rememberPsw":"rememberPassword",
+    "redirect":"Login timeout, please login again. Will redirect after 2 seconds",
+    "invalidation":"Session invalidation, the user login elsewhere",
+    "tooFast":"Request too fast",
+    "serverResponse":"Server response",
+    "error":"Error message",
+    "warn":"warn"
+  },
+  "signIn":{
+    "userName":"userName",
+    "password":"password",
+    "authCode":"authCode"
+  },
+  "welcome":{
+    "welcome":"welcome",
+    "welcomeText":"welcome to come"
+  },
+  "header": {
+    "left":{
+      "name":"ManageSystem",
+      "refresh":"refresh",
+      "theme":"theme"
+    },
+    "right":{
+      "customerName":"customerName",
+      "stationName":"stationName",
+      "userRole":"userRole",
+      "changePassword":"changePassword",
+      "loginOut":"loginOut"
+    }
+  },
+  "aside": {
+    "nav1": {
+      "HEADER": "SystemManage",
+      "startManage": {
+        "startManageT": "startManage",
+        "customerManage": "customerManage",
+        "stationManage": "stationManage",
+        "userManage": "userManage"
+      },
+      "inStationManage": {
+        "inStationManageT": "inStationManage",
+        "staffManage": "staffManage",
+        "oilManage": "oilManage",
+        "tankManage": "tankManage",
+        "switchManage": "switchManage",
+        "nozzleManage": "nozzleManage",
+        "liquidLevelManage": "liquidLevelManage",
+        "outdoorPosManage": "outdoorPosManage",
+        "systemPram": "systemPram"
+      }
+    },
+    "nav2": {
+      "HEADER": "dataQuery",
+      "historyQuery": {
+        "historyQueryT": "historyQuery",
+        "transQuery": "transQuery",
+        "transCollectQuery": "transCollectQuery"
+      },
+      "shiftQuery": {
+        "shiftQueryT": "shiftQuery",
+        "shiftHistory": "shiftHistory",
+        "oilShift": "oilShift",
+        "tankShift": "tankShift",
+        "nozzleShift": "nozzleShift",
+        "nozzleManage": "nozzleManage"
+      }
+    }
+  },
+  "items":{
+    "public":{
+      "in15":"within 15 characters",
+      "in20":"within 20 characters",
+      "in50":"within 50 characters",
+      "in30":"within 30 characters",
+      "in100":"within 100 characters",
+      "inputAdminName":"Please enter the lead name",
+      "inputTel":"Please enter a valid phone number",
+      "inputAddress":"Please enter address",
+      "numberIn5":"Please enter no more than five digits",
+      "numberIn5NoMuti":"Please enter no more than five digits, with site not repeatable",
+      "positiveInteger":"Please enter a positive integer, decimal digits in the system parameter setting",
+      "inputPositiveInteger":"Please enter positive integer",
+      "inputPositiveInteger09":"Please enter positive integer 0-9",
+      "inputPsw":"Please enter the password",
+      "noChangedIsNull":"Do not modify is empty",
+      "ipDemo":"Example: 192.168.1.1"
+    },
+    "customerManage":{
+      "addCustomer":"addCustomer",
+      "editCustomer":"editCustomer",
+      "deleteCustomer":"deleteCustomer",
+      "customerNo":"customerNo",
+      "customerName":"customerName",
+      "address":"address",
+      "admin":"admin",
+      "telephone":"telephone",
+      "level":"level",
+      "regTime":"regTime",
+      "inputCustomerName":"please input customerName"
+    },
+    "stationManage":{
+      "stationList":"stationList",
+      "addStation":"addStation",
+      "editStation":"editStation",
+      "deleteStation":"deleteStation",
+      "stationId":"stationId",
+      "stationName":"stationName",
+      "manager":"manager",
+      "address":"address",
+      "phoneNum":"phoneNum",
+      "qrCodePayGroupId":"qrCodePayGroupId",
+      "qrCodePayStationId":"qrCodePayStationId",
+      "refundPayPsw":"refundPayPsw",
+      "regTime":"regTime",
+      "inputStationId":"Please enter a number within five, with the customer cannot be repeated",
+      "inputStationName":"please input stationName",
+      "inputRefundPsw":"Please enter the 6 digit refund password, if already set do not need to fill out"
+    },
+    "userManage":{
+      "userList":"userList",
+      "addUser":"addUser",
+      "editUser":"editUser",
+      "deleteUser":"deleteUser",
+      "customerId":"customerId",
+      "customerName":"customerName",
+      "stationId":"stationId",
+      "stationName":"stationName",
+      "role":"role",
+      "phoneNum":"phoneNum",
+      "name":"name"
+    },
+    "staffManage":{
+      "staffList":"staffList",
+      "addStaff":"addStaff",
+      "editStaff":"editStaff",
+      "deleteStaff":"deleteStaff",
+      "name":"name",
+      "userId":"staffNo",
+      "phoneNum":"phoneNum",
+      "password":"password",
+      "createTime":"createTime"
+    },
+    "oilManage":{
+      "oilList":"oilList",
+      "addOil":"addOil",
+      "editOil":"editOil",
+      "deleteOil":"deleteOil",
+      "oilCode":"oilCode",
+      "oilName":"oilName",
+      "price":"price",
+      "createTime":"createTime"
+    },
+    "tankManage":{
+      "tankList":"tankList",
+      "addTank":"addTank",
+      "editTank":"editTank",
+      "deleteTank":"deleteTank",
+      "tankNo":"tankNo",
+      "tankHeight":"tankHeight",
+      "tankCapacity":"tankCapacity",
+      "createTime":"createTime"
+    },
+    "switchManage":{
+      "switchList":"switchList",
+      "addSwitch":"addSwitch",
+      "editSwitch":"editSwitch",
+      "deleteSwitch":"deleteSwitch",
+      "switchNo":"switchNo",
+      "switchName":"switchName",
+      "ipAdress":"ipAdress",
+      "createTime":"createTime"
+    },
+    "nozzleManage":{
+      "nozzleList":"nozzleList",
+      "addNozzle":"addNozzle",
+      "editNozzle":"editNozzle",
+      "deleteNozzle":"deleteNozzle",
+      "logicNozzleNo":"logicNozzleNo",
+      "physicsNozzleNo":"physicsNozzleNo",
+      "switchPort":"switchPort"
+    },
+    "liquidLevelManage":{
+      "liquidLevelList":"liquidLevelList",
+      "addLiquidLevel":"addLiquidLevel",
+      "editLiquidLevel":"editLiquidLevel",
+      "deleteLiquidLevel":"deleteLiquidLevel",
+      "agreementType":"agreementType"
+    },
+    "outdoorPosManage":{
+      "outdoorPosList":"outdoorPosList",
+      "addOutdoorPos":"addOutdoorPos",
+      "editOutdoorPos":"bindNozzleAgain",
+      "deleteOutdoorPos":"deleteOutdoorPos",
+      "bindNozzlesNo":"bindNozzlesNo",
+      "bindNozzles":"bindNozzles",
+      "outdoorPosNo":"outdoorPosNo"
+    },
+    "systemPramManage":{
+      "systemPramList":"systemPramList",
+      "addSystemPram":"addSystemPram",
+      "editSystemPram":"editSystemPram",
+      "deleteSystemPram":"deleteSystemPram",
+      "moneyDec":"moneyDec",
+      "volumeDec":"volumeDec",
+      "totalizerDec":"totalizerDec",
+      "totalizer2Dec":"totalizer2Dec",
+      "heightDec":"heightDec",
+      "shiftCount":"shiftCount",
+      "createTime":"createTime"
+    },
+    "shiftQuery":{
+      "shiftList":"shiftList",
+      "shiftNum":"shiftNum",
+      "startTime":"startTime",
+      "endTime":"endTime"
+    },
+    "oilShiftQuery":{
+      "oilShiftList":"oilShiftList",
+      "thisShiftSaleAmount":"thisShiftSaleAmount",
+      "actualRecieveAmount":"actualRecieveAmount",
+      "startVolume":"startVolume",
+      "inVolume":"inVolume",
+      "outVolume":"outVolume",
+      "endVolume":"endVolume",
+      "saleMoney":"saleMoney",
+      "realMoney":"realMoney",
+      "discount":"discount",
+      "outVolume2":"outVolume2"
+    },
+    "tankShiftQuery":{
+      "tankShiftList":"tankShiftList",
+      "startShiftVolume":"startShiftVolume",
+      "endShiftVolume":"endShiftVolume",
+      "inVolume":"inVolume",
+      "outVolume":"outVolume",
+      "startHeight":"startHeight",
+      "endHeight":"endHeight",
+      "outVolume2":"liquidLevelValue"
+    },
+    "nozzleShiftQuery":{
+      "nozzleShiftList":"nozzleShiftList",
+      "thisShiftAmount":"thisShiftAmount",
+      "actualAmount":"actualAmount",
+      "startTotalizer":"startTotalizer",
+      "endTotalizer":"endTotalizer",
+      "volume":"volume",
+      "money":"moneyInThisShift",
+      "realMoney":"realMoneyInThisShift",
+      "discount":"discount"
+    },
+    "trans":{
+      "time":"time",
+      "money":"money",
+      "volume":"volume",
+      "price":"price",
+      "totalizer":"totalizer",
+      "transNum":"TTC",
+      "shiftNum":"shiftNum",
+      "payMoney":"payMoney",
+      "payType":"payType",
+      "discount":"discount",
+      "isNullToQueryAll":"isNullToQueryAll",
+      "inputNumber":"inputNumber",
+      "canInputPartOfOilName":"canInputPartOfOilName"
+    },
+    "transCollect":{
+      "allTransCount":"allTransCount",
+      "allMoney":"allMoney",
+      "allVolume":"allVolume",
+      "allDiscount":"allDiscount",
+      "count":"count",
+      "collect":"collect",
+      "collectByNozzle":"collectByNozzle",
+      "collectByPay":"collectByPay",
+      "collectByOil":"collectByOil"
+      
+    }
+  }
+}

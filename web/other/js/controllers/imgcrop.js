@@ -1,0 +1,1 @@
+app.controller("ImgCropCtrl",["$scope",function(a){a.myImage="",a.myCroppedImage="",a.cropType="circle";angular.element(document.querySelector("#fileInput")).on("change",function(e){var n=e.currentTarget.files[0],r=new FileReader;r.onload=function(n){a.$apply(function(e){e.myImage=n.target.result})},r.readAsDataURL(n)})}]);

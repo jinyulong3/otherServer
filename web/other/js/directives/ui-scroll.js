@@ -1,0 +1,1 @@
+angular.module("app").directive("uiScroll",["$location","$anchorScroll",function(l,o){return{restrict:"AC",link:function(c,n,i){n.on("click",function(c){l.hash(i.uiScroll),o()})}}}]);

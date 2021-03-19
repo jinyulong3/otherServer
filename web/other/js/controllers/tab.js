@@ -1,0 +1,1 @@
+app.controller("CustomTabController",["$scope",function(o){o.tabs=[!0,!1,!1],o.tab=function(t){angular.forEach(o.tabs,function(t,a){o.tabs[a]=!1}),o.tabs[t]=!0}}]);

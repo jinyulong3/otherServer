@@ -1,0 +1,1 @@
+app.factory("mails",["$http",function(n){var t=n.get("js/app/mail/mails.json").then(function(n){return n.data.mails}),r={all:function(){return t},get:function(r){return t.then(function(n){for(var t=0;t<n.length;t++)if(n[t].id==r)return n[t];return null})}};return r}]);

@@ -1,0 +1,1 @@
+angular.module("app",["ngCookies","ui.router","ngStorage","ui.bootstrap","ui.load","angular-md5","ngLocale","ngAnimate","oc.lazyLoad","pascalprecht.translate","toaster","ui.jq","pascalprecht.translate"],function(){});
